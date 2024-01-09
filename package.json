@@ -1,0 +1,31 @@
+{
+  "name": "testParcelReact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --target landingPage",
+    "watch": "parcel watch --target landingPage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fluentui/react-components": "^9.44.2",
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "targets": {
+    "landingPage": {
+      "context": "browser",
+      "includeNodeModules": true,
+      "distDir": "./src/app",
+      "source": "./src/index.html"
+    }
+  }
+}
