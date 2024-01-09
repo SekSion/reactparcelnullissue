@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel --target landingPage",
     "build": "parcel build --target landingPage",
     "watch": "parcel watch --target landingPage"
   },
